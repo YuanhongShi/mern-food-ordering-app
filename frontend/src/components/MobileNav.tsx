@@ -1,5 +1,5 @@
 import { Menu } from "lucide-react"
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
+import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "./ui/sheet"
 import { Separator } from "./ui/separator"
 import { Button } from "./ui/button"
 
@@ -17,7 +17,7 @@ const MobileNav = () => {
                 </SheetTitle>
                 <Separator />
                 <SheetDescription className="flex">
-                    <Button className="flex-1 font-bold bg-orange-500">Log In</Button>
+                    <Button className="flex-1 font-bold bg-orange-500 text-white">Log In</Button>
                 </SheetDescription>
             </SheetContent>
         </Sheet>
